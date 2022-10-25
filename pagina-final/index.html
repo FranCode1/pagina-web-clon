@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Las Cabañas, Lodge de Montaña. Alquiler de cabañas cerro catedral Bariloche.</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"> -->
+    <script src="https://kit.fontawesome.com/e430f2d90b.js" crossorigin="anonymous"></script>
+    <meta name="keywords"
+        content="alquiler, cabañas, cerro catedral, lodge, hotel, bariloche, alojamiento, san carlos de bariloche, departamentos, studios con cocina, ski lodge, catedral ski, cabañas, cabañas de cipres, cabanas, cabanas de cipres">
+    <meta name="description"
+        content="Lodge de montaña en el cerro Catedral, Bariloche. Alquiler de cabañas en invierno y verano. Spa, sauna, pileta climatizada, hidromasajes, desayuno y restaurant.">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- esta parte del header tiene dos partes, la de pc y la de celular, tiene un efecto de que cuando llegue a 
+    la resolucion de celular que es 760px, desaparece el menu de pc y el de celular tambien pero se muestra si tocas
+    el boton para descolapasarlo-->
+    <header>
+        <div class="header1">
+            <div class="header1-contenedor">
+                <a class="header1-contenedor__a instagram" href=""></a>
+                <a class="header1-contenedor__a facebook" href=""></a>
+                <a class="header1-contenedor__a twitter" href=""></a>
+            </div>
+        </div>
+        <div class="header2">
+            <nav class="menu" aria-label="1">
+                <a href="#">Home</a>
+                <a href="#cabañas">Cabañas</a>
+                <a href="#rincon">Rincon de Diego</a>
+                <label for="check" class="esconder-menu">
+                    &#215
+                </label>
+            </nav>
+            <!-- <h2 class="logo">imagen de prueba</h2> -->
+            <img class="logo-principal" src="./images/logo-principal.png" alt="">
+            <!-- <input type="checkbox" name="" id="check">
+            <label for="check" class="mostrar-menu">
+                &#8801
+            </label> -->
+            <nav class="menu" aria-label="2">
+                <a href="#mapa">Ubicación</a>
+                <a href="./contacto.html">Contacto</a>
+                <a href="#actividades">Actividades</a>
+                <!-- <label for="check" class="esconder-menu">
+                    &#215
+                </label> -->
+            </nav>
+        </div>
+        <div class="header3">
+            <input type="checkbox" name="" id="check">
+            <label for="check" class="mostrar-menu">
+                &#8801
+            </label>
+            <nav class="menu menu3" aria-label="3">
+                <a href="./index.html">Home</a>
+                <a href="#cabañas">Cabañas</a>
+                <a href="#rincon">Rincon de Diego</a>
+                <a href="#mapa">Ubicación</a>
+                <a href="./contacto.html">Contacto</a>
+                <a href="#actividades">Actividades</a>
+                <div class="header1-contenedor">
+                    <a class="header1-contenedor__a instagram" href=""></a>
+                    <a class="header1-contenedor__a facebook" href=""></a>
+                    <a class="header1-contenedor__a twitter" href=""></a>
+                </div>
+                <label for="check" class="esconder-menu">
+                    &#215
+                </label>
+            </nav>
+        </div>
+    </header>
+    <!-- esta parte del carruosel es simple, las imagenes se colapsan y se muestra una por una con el efecto en css
+    donde si pasan a la izquierda infinitamente -->
+    <section>
+        <div class="carrousel">
+            <ul>
+                <li><img src="./images/1.jpg" alt=""></li>
+                <li><img src="./images/2.jpg" alt=""></li>
+                <li><img src="./images/3.jpg" alt=""></li>
+                <li><img src="./images/4.jpg" alt=""></li>
+                <li><img src="./images/5.jpg" alt=""></li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <div class="texto1">
+            <img src="./images/hojas.svg" class="hojas" alt="">
+            <span class="linea"></span>
+            <h2 class="texto1-titulo">Las Cabañas</h2>
+            <p class="texto1-subtitulo">ALDEA DE MONTAÑA</p>
+            <p class="texto1-parrafo">
+                Una propuesta única y diferente en el corazón de la Villa del Cerro Catedral. La experiencia es lo más parecido
+                a vivir
+                en una pequeña aldea de montaña, donde el tiempo se detiene, y todo está resuelto en su justa medida, en un sano
+                equilibrio con la naturaleza. La montaña es protagonista, los bosques de Ñires la verdadera razón de ser, pero
+                todo esto
+                tiene sentido cuando podemos compartir esta experiencia con ustedes.
+            </p>
+            <span class="linea"></span>
+        </div>
+    </section>
+    <section id="cabañas" class="iconos">
+        <div class="contenido-iconos">
+            <div><a href="./studio.html"><img src="./images/cabaña_studio1.JPG" alt=""></a></div>
+            <div><a href="./cipres.html"><img src="./images/cabaña_cipres1.JPG" alt=""></a></div>
+            <div id="icono-mobile"><a href="./house.html"><img src="./images/cabaña_house1.JPG" alt=""></div></a>
+        </div>
+    </section>
+    <section id="banner">
+        <div class="contenido-banner" id="rincon">
+            <div class="restaurante-div_header" id="actividad">
+                <img class="restaurante-div_header-img espacio" src="./images/logo.png" alt="">
+                <p class="restaurante-div_header-p">RINCÓN DE DIEGO</p>
+            </div>
+            <h3 class="restaurante-div_botones-btn1">RD, espacio de</h3>
+            <h3 class="restaurante-div_botones-btn2">SENSACIONES</h3>
+            <a href="./contacto.html" class="boton-empezar restaurante-div_botones-btn3">RESERVAR MESA</a>
+        </div>
+    </section>
+    <section>
+        <div class="parrafo-simple">
+            <div class="parrafo-simple_contenedor">
+                <p class="parrafo-simple_texto">Aquí es donde todo tiene sentido.</p>
+                <p class="parrafo-simple_texto">El hogar central lo dice todo,</p>
+                <p class="parrafo-simple_texto">más que un punto de encuentro</p>
+                <p class="parrafo-simple_texto">un lugar en el mundo.</p>
+            </div>
+        </div>
+    </section>
+    <section id="personas">
+        <div id="actividades">
+            <img class="izquierda" src="./images/home_01.jpg" alt="">
+        </div>
+        <div class="caja actividades">
+            <img class="actividades-img1" src="./images/hojas_punto_1.svg" alt="">
+            <p class="actividades-p1">ACTIVIDADES</p>
+            <span class="actividades-linea"></span>
+            <p class="actividades-p2">UNA EXPERIENCIA TODO EL AÑO</p>
+            <p class="actividades-p3">
+                Ski Weeks<br>
+                Summer Vacations<br>
+                Ski & Snowboard<br>
+                Trekking & MTB<br>
+                Corporate Trips
+            </p>
+            <img class="actividades-img2" src="./images/hojas_punto_2.svg" alt="">
+            <a href="./contacto.html" class="actividades-btn">Consultar</a><!--boton-saber-mas -->
+        </div>
+        <div>
+            <img class="derecha" src="./images/home_02.jpg" alt="">
+        </div>
+    </section>
+    <section id="mapa">
+        <div class="mapa"></div>
+    </section>
+    <section id="iconos" class="footer">
+        <div class="contenido-iconos">
+            <div>
+                <img src="./images/imagen.png" alt="">
+            </div>
+            <div id="icono-mobile ajuste">
+                <p> <a href="./assets/html/contactos.html">Contacto y Reservas: (11)40819068</a> </p>
+                <p>Mail: <a href="https://gonzales.diegoj@gmail.com">gonzalez.diegoj@gmail.com</a> </p>
+                <p>Sitio Oficial: <a href="./index.html">www.lascabañas.com.ar</a> </p>
+                <p>Twitter: <a href="https://twitter.com/diego_javier72">@diego_javier72</a> </p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
